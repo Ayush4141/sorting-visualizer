@@ -34,7 +34,7 @@ function generate_array()
         div_sizes[i]=Math.floor(Math.random()*80)+10;
         div_array[i]=document.createElement("div");
         cont.appendChild(div_array[i]);
-        div_array[i].style="margin:0% " + margin_size +"% ; background-color: Blue; width :" + 100 + "%; height :" + (div_sizes[i]) + "%;";
+        div_array[i].style="margin:0% " + margin_size +"% ; background-color: rgb(31, 81, 255); width :" + 100 + "%; height :" + (div_sizes[i]) + "%;";
 
     }
 }
